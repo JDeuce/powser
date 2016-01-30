@@ -3,7 +3,7 @@
 
 powser is a command line tool for downloading front-end dependencies using the [cdnjs reopsitory](https://cdnjs.com/).
 
-Unlike [bowser](https://github.com/bower/bower/issues/368) this tool will eventually be meant
+Unlike [bower](https://github.com/bower/bower/issues/368) this tool will eventually be meant
 for production dependency management. It does not attempt to checkout full source trees,
 it attempts to only fetch what is required for production.
 
