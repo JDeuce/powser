@@ -1,4 +1,4 @@
-=Powser=
+#Powser#
 ![I'll make my own package manager with blackjack and hookers](http://i.imgur.com/lWoIzCc.png)
 
 powser is a command line tool for downloading front-end dependencies using the [cdnjs reopsitory](https://cdnjs.com/).
@@ -17,24 +17,24 @@ in a git repository.
 
 The project is still in it's infancy, but I think it works quite well.
 
-=Demo=
+#Demo#
 [![asciicast](https://asciinema.org/a/4fmiom5wwp3o8rzeoguaths0m.png)](https://asciinema.org/a/4fmiom5wwp3o8rzeoguaths0m)
 
-=How to use=
+#How to use#
 
-== Installing powser ==
+## Installing powser ##
 
-=== Installing from pip ===
+### Installing from pip ###
 ```
 $ pip install powser
 ```
 
-=== Installing from source ===
+### Installing from source ###
 ```
 python setup.py install
 ```
 
-== Searching for packages ==
+## Searching for packages ##
 
 ```
 $ powser search jquery
@@ -50,7 +50,7 @@ jquery-handsontable
 ```
 {{
 
-== Showing package information ==
+## Showing package information ##
 
 ```
 $ powser show backbone.js
@@ -68,7 +68,7 @@ versions:
         - backbone.js
 ```
 
-== Installing a package ==
+## Installing a package ##
 
 ```
 $ powser install jquery
@@ -83,7 +83,7 @@ $ ls powser_components/jquery/2.2.0/
 jquery.js  jquery.min.js  jquery.min.map
 ```
 
-=Contributing=
+#Contributing#
 
 Send ideas through github issues.
 
@@ -93,7 +93,7 @@ Code should ideally:
   * Generate no pyflakes warnings
 
 
-=TODO=
+#TODO#
 
   * Allow specific package versions to be installed
   * Implement automated tests
@@ -104,7 +104,7 @@ Code should ideally:
   * [webassets](https://webassets.readthedocs.org/en/latest/) integration - automatically build compressed packs from downloaded files
     * Possibility to automatically switch between CDN hosted/local assets
 
-=License=
+#License#
 
 Written by JDeuce
 Released under the MIT License: http://www.opensource.org/licenses/mit-license.php
