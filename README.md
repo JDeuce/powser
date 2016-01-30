@@ -48,7 +48,6 @@ jquery.isotope
 jquery-validate
 jquery-handsontable
 ```
-{{
 
 ## Showing package information ##
 
