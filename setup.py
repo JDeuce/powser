@@ -19,6 +19,7 @@ setuptools.setup(
     zip_safe=False,
     keywords='front-end package management cdnjs bower',
     classifiers=[],
+    packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
             'powser = src.main:main'
