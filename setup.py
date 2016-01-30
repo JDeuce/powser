@@ -6,8 +6,10 @@ from src.version import __VERSION_STR__
 setuptools.setup(
     name='powser',
     version=__VERSION_STR__,
-    description='Front-end package manager inspired by bower utilizing cdnjs',
-    long_description=open('README.md').read().strip(),
+    description=(
+        'Front-end package manager inspired by bower utilizing cdnjs. '
+        'See https://github.com/JDeuce/powser for more.'
+    ),
     author='Josh Jaques',
     author_email='jjaques@gmail.com',
     url='https://github.com/JDeuce/powser',
