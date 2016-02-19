@@ -1,6 +1,6 @@
 from __future__ import print_function
 
-__VERSION__ = (1, 0, 1)
+__VERSION__ = (1, 0, 2)
 __VERSION_STR__ = '.'.join(map(str, __VERSION__))
 
 
