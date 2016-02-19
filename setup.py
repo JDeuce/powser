@@ -13,16 +13,16 @@ setuptools.setup(
     author='Josh Jaques',
     author_email='jjaques@gmail.com',
     url='https://github.com/JDeuce/powser',
-    py_modules=['src'],
+    package_dir={'powser': 'src'},
+    packages=['powser'],
     install_requires=open('requirements.txt').read().splitlines(),
     license='MIT License',
     zip_safe=False,
     keywords='front-end package management cdnjs bower',
     classifiers=[],
-    packages=setuptools.find_packages(),
     entry_points={
         'console_scripts': [
-            'powser = src.main:main'
+            'powser = powser.main:main'
         ]
     }
 )
